@@ -34,14 +34,14 @@ body {
 }
 
 .photo {
-    width: max(475px, 1vw);
+    width: max(475px, 0.8vw);
     align-self: center;
     margin: 0 auto;
     padding-bottom: 40px;
 }
 
 .photo img {
-    max-width: max(475px, 1vw);
+    max-width: max(475px, 0.8vw);
     border: 1px solid black;
 }
 
