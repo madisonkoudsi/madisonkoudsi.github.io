@@ -14,16 +14,15 @@ body {
 
 .navbar-item {
     font-family: Montserrat;
+    font-weight: 100;
     box-sizing: border-box;
-    /* border: 1px solid black; */
     text-decoration: none;
     color: black;
-    font-size: max(3vw, 24px);
+    font-size: max(3.5vw, 24px);
     text-align: left;
     line-height: 12rem;
-    /* margin-left: 1em; */
-    letter-spacing: 0.1em;
-    word-spacing: 0.2em;
+    letter-spacing: 0.2em;
+    word-spacing: 0.4em;
     text-align: center;
 }
 
@@ -35,14 +34,15 @@ body {
 }
 
 .photo {
-    width:475px;
+    width: max(475px, 1vw);
     align-self: center;
     margin: 0 auto;
     padding-bottom: 40px;
 }
 
 .photo img {
-    max-width: 475px;
+    max-width: max(475px, 1vw);
+    border: 1px solid black;
 }
 
 .photo p {
