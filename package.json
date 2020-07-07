@@ -1,0 +1,23 @@
+{
+  "name": "madisonkoudsi.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwind build src/style.css -o style.css" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/madisonkoudsi/madisonkoudsi.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/madisonkoudsi/madisonkoudsi.github.io/issues"
+  },
+  "homepage": "https://github.com/madisonkoudsi/madisonkoudsi.github.io#readme",
+  "dependencies": {
+    "tailwindcss": "^1.4.6"
+  }
+}

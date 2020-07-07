@@ -1,0 +1,21 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+.logo {
+    font-family: Montserrat;
+    font-weight: 100;
+    letter-spacing: 0.2em;
+    word-spacing: 0.4em;
+}
+
+.pic {
+    @apply grid-cols-1 justify-center mx-auto mb-10;
+}
+
+.pic p {
+    @apply text-center;
+    font-family: Montserrat;
+}
