@@ -12,7 +12,7 @@
 }
 
 .pic {
-    @apply grid-cols-1 justify-center mx-auto mb-10;
+    @apply grid-cols-1 justify-center mx-auto mb-20;
 }
 
 .pic p {
