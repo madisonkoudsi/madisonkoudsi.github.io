@@ -4,6 +4,10 @@
 
 @tailwind utilities;
 
+
+body {
+    background-color: rgb(240, 240, 240);
+}
 .logo {
     font-family: Montserrat;
     font-weight: 100;
