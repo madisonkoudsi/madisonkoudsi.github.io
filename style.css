@@ -17878,8 +17878,15 @@ video {
   transition-delay: 1000ms;
 }
 
+@font-face {
+  font-family: 'BeautifulKisses';
+
+  src: url('Beautiful Kisses.ttf');
+}
+
 body {
   background-color: rgb(240, 240, 240);
+  font-family: Montserrat;
 }
 
 .logo {
@@ -17887,6 +17894,10 @@ body {
   font-weight: 100;
   letter-spacing: 0.2em;
   word-spacing: 0.4em;
+}
+
+.nav {
+  font-family: Montserrat;
 }
 
 .pic {
@@ -17900,6 +17911,32 @@ body {
 .pic p {
   text-align: center;
   font-family: Montserrat;
+}
+
+.label {
+  font-family: Montserrat;
+}
+
+.custom-piece {
+  font-family: Montserrat;
+  font-weight: 200;
+  letter-spacing: 0.15em;
+  text-align: center;
+}
+
+.quote {
+  font-family: 'BeautifulKisses';
+  text-align: center;
+  color: #373737;
+}
+
+.pricing {
+  font-family: Special Elite;
+  color: #3D3C3C;
+}
+
+.option {
+  font-family: Special Elite;
 }
 
 @media (min-width: 640px) {
