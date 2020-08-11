@@ -5,57 +5,59 @@
 @tailwind utilities;
 
 @font-face {
-    font-family: 'BeautifulKisses';
-    src: url('Beautiful Kisses.ttf');
+  font-family: 'BeautifulKisses';
+  src: url('Beautiful Kisses.ttf');
 }
-
 
 body {
-    background-color: rgb(240, 240, 240);
-    font-family: Montserrat;
+  background-color: rgb(240, 240, 240);
+  font-family: Montserrat;
 }
 .logo {
-    font-family: Montserrat;
-    font-weight: 100;
-    letter-spacing: 0.2em;
-    word-spacing: 0.4em;
+  font-family: Montserrat;
+  font-weight: 100;
+  letter-spacing: 0.2em;
+  word-spacing: 0.4em;
 }
 
 .nav {
-    font-family: Montserrat;
+  font-family: Montserrat;
+  letter-spacing: 0.1em;
+  font-weight: 100;
 }
 
 .pic {
-    @apply grid-cols-1 justify-center mx-auto mb-20;
+  @apply grid-cols-1 justify-center mx-auto mb-20;
 }
 
 .pic p {
-    @apply text-center;
-    font-family: Montserrat;
+  @apply text-center;
+  font-family: Montserrat;
 }
 
 .label {
-    font-family: Montserrat;
+  font-family: Montserrat;
 }
 
 .custom-piece {
-    font-family: Montserrat;
-    font-weight: 200;
-    letter-spacing: 0.15em;
-    @apply text-center;
+  font-family: Montserrat;
+  font-weight: 200;
+  letter-spacing: 0.15em;
+  @apply text-center;
 }
 
 .quote {
-    font-family: 'BeautifulKisses';
-    @apply text-center;
-    color: #373737;
+  font-family: 'BeautifulKisses';
+  @apply text-center;
+  color: #373737;
 }
 
 .pricing {
-    font-family: Special Elite;
-    color: #3D3C3C;
+  font-family: Special Elite;
+  color: #3d3c3c;
 }
 
 .option {
-    font-family: Special Elite;
+  font-family: Special Elite;
+  color: #3d3c3c;
 }

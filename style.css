@@ -17898,6 +17898,8 @@ body {
 
 .nav {
   font-family: Montserrat;
+  letter-spacing: 0.1em;
+  font-weight: 100;
 }
 
 .pic {
@@ -17932,11 +17934,12 @@ body {
 
 .pricing {
   font-family: Special Elite;
-  color: #3D3C3C;
+  color: #3d3c3c;
 }
 
 .option {
   font-family: Special Elite;
+  color: #3d3c3c;
 }
 
 @media (min-width: 640px) {

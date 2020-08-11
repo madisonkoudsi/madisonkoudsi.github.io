@@ -1,118 +1,262 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&family=Special+Elite&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&family=Special+Elite&display=swap"
+      rel="stylesheet"
+    />
     <title>Madison Koudsi: Art Portfolio</title>
-</head>
-<style>
+  </head>
+  <style>
     @import url('./style.css');
-</style>
-<body>
-    <div class="container w-screen flex justify-center mx-auto my-5">
-        <a class="logo text-2xl sm:text-5xl" href="index.html">MADISON KOUDSI</a>
+  </style>
+  <body>
+    <div class="container w-screen flex justify-center mx-auto mt-5">
+      <a class="logo text-2xl sm:text-5xl" href="index.html">MADISON KOUDSI</a>
     </div>
-    <div class="container flex justify-center mx-auto my-10">
-        <a class="nav text-2xl mr-5" href="index.html">HOME</a>
-        <a class="nav text-2xl ml-5 mr-5" href="about.html">ABOUT</a>
-        <a class="nav text-2xl ml-5" href="contact.html">CONTACT</a>
+    <div class="container flex justify-center mx-auto mb-10 mt-5">
+      <a class="nav text-lg mr-5" href="index.html">HOME</a>
+      <a class="nav text-lg ml-5 mr-5" href="about.html">ABOUT</a>
+      <a class="nav text-lg ml-5" href="contact.html">CONTACT</a>
     </div>
     <div class="container bg-white mx-auto" style="max-width: 100%;">
-        <div class="container justify-center mx-auto" style="max-width: 100%;">
-            <p class="text-3xl custom-piece">WANT A CUSTOM PIECE?</p>
-            <p class="text-3xl quote">Request a Quote!</p>
-        </div>
-        <div class="containter mx-auto max-w-xl mt-10 overflow-auto border border-black mb-10" style="background-color: rgb(240, 240, 240);">
-            <div class="container mx-auto .shadow-sm max-w-xs mt-5 border border-black bg-white rounded" >
-                <p class="text-center bg-white"">PRICING (approx)</p>
+      <div class="container justify-center mx-auto" style="max-width: 100%;">
+        <p class="text-3xl custom-piece pt-12">WANT A CUSTOM PIECE?</p>
+        <p class="text-3xl quote pb-10">Request a Quote!</p>
+      </div>
+      <div
+        class="containter mx-auto max-w-xl mt-10 overflow-auto border border-black border-opacity-50 mb-10 text-center pb-10"
+        style="background-color: #f7f5f5;"
+      >
+        <p
+          class="text-center center bg-white inline-block px-4 mt-5 border border-black rounded border-opacity-50"
+        >
+          PRICING (approx)
+        </p>
+        <ul
+          class="list-disc list-inside mt-5 pb-5"
+          style="list-style-type: circle;"
+        >
+          <li class="text-center mb-3 pricing">All Line Art: $15</li>
+          <li class="text-center mb-3 pricing">Charcoal: starts at $25</li>
+          <li class="text-center mb-3 pricing">Acrylic: starts at $100</li>
+          <li class="text-center mb-3 pricing">
+            All other mediums determined in quote
+          </li>
+        </ul>
+      </div>
+      <div
+        class="container mx-auto max-w-2xl border border-black border-opacity-50 pb-5"
+        style="background-color: #f7f5f5;"
+      >
+        <form
+          action="https://formspree.io/mbjzqqee"
+          method="POST"
+          class="w-full"
+        >
+          <div class="flex flex-wrap pt-5 px-3 ml-5">
+            <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
+              <label
+                class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
+                for="first-name"
+              >
+                First Name
+              </label>
+              <input
+                class="appearance-none block w-3/4 bg-white text-gray-700 border border-black border-opacity-50 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-gray-100"
+                id="first-name"
+                name="first-name"
+                type="text"
+                placeholder="Jane"
+              />
             </div>
-            <ul class="list-disc list-inside mt-5 pb-5" style="list-style-type: circle;">
-                <li class="text-center mb-1 pricing">All Line Art: $15</li>
-                <li class="text-center mb-1 pricing">Charcoal: starts at $25</li>
-                <li class="text-center mb-1 pricing">Acrylic: starts at $100</li>
-                <li class="text-center mb-1 pricing">All other mediums determined in quote</li>
-            </ul>
-        </div>
-        <div class="container mx-auto max-w-2xl border border-black" style="background-color: rgb(240, 240, 240);">
-            <form action="https://formspree.io/mbjzqqee" method="POST" class="w-full">
-                <div class="flex flex-wrap pt-5 px-3 ml-5">
-                    <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
-                      <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="first-name">
-                        First Name
-                      </label>
-                      <input class=" appearance-none block w-3/4 bg-gray-200 text-gray-700 border border-gray-600 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="first-name" name="first-name" type="text" placeholder="Jane">
-                    </div>
-                    <div class="w-full md:w-1/2 px-3">
-                      <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="last-name">
-                        Last Name
-                      </label>
-                      <input class="appearance-none block w-3/4 bg-gray-200 text-gray-700 border border-gray-600 rounded py-3 px-4 leading-tight" id="last-name" name="last-name" type="text" placeholder="Doe">
-                    </div>
-                </div>
-                <div class="flex flex-wrap pt-5 px-3 ml-5">
-                    <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
-                      <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="email">
-                        Email
-                      </label>
-                      <input class=" appearance-none block w-3/4 bg-gray-200 text-gray-700 border border-gray-600 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="email" name= "_replyto" type="email" placeholder="name@example.com">
-                    </div>
-                    <div class="w-full md:w-1/2 px-3">
-                      <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="phone">
-                        Phone Number
-                      </label>
-                      <input class="appearance-none block w-3/4 bg-gray-200 text-gray-700 border border-gray-600 rounded py-3 px-4 leading-tight" id="phone" type="tel" name="phone" placeholder="(310) 867-5309">
-                    </div>
-                </div>
-                <div class="pt-5 mx-auto">
-                    <p class="text-center text-xl tracking-widest">TELL ME WHAT YOU WANT! (Select all that apply)</p>
-                </div>
-                <div class="pt-3 mx-auto">
-                    <p class="text-center">STYLE/MEDIUM</p>
-                </div>
-                <div class="grid pt-1 max-w-md ml-auto mr-0">
-                    <!-- <input id="style-medium" type="radio" name="style">
-                    <label for="style-medium"> Line Art</label> -->
-                    <label class="option"><input type="radio" name="style" value="line-art" id="line-art"> Line Art</label>
-                    <label class="option"><input type="radio" name="style" value="precision-pencil" id="precision-pencil"> Precision Pencil</label>
-                    <label class="option"><input type="radio" name="style" value="water-color" id="water-color"> Delicate Water Color</label>
-                    <label class="option"><input type="radio" name="style" value="loose-charcoal" id="loose-charcoal"> Loose Charcoal</label>
-                    <label class="option"><input type="radio" name="style" value="condensed-charcoal" id="condensed-charcoal"> Condensed Charcoal</label>
-                    <label class="option"><input type="radio" name="style" value="acrylic" id="acrylic"> Precision Acrylic</label>
-                    <label class="option"><input type="radio" name="style" value="other-style" id="other-style"> Not sure/other</label>
-                </div>
-                <div class="pt-3 mx-auto">
-                    <p class="text-center">SOURCE</p>
-                </div>
-                <div class="grid pt-1 max-w-md ml-auto mr-0">
-                    <label class="option"><input type="radio" name="source" value="picture" id="picture"> Picture</label>
-                    <label class="option"><input type="radio" name="source" value="idea" id="idea"> Idea</label>
-                    <label class="option"><input type="radio" name="source" value="water-color" id="water-color"> Live Model</label>
-                    <label class="option"><input type="radio" name="source" value="other-source" id="other-source"> Not sure/other</label>
-                </div>
-                <div class="pt-3 mx-auto">
-                    <p class="text-center">SIZE</p>
-                </div>
-                <div class="grid pt-1 max-w-md ml-auto mr-0">
-                    <label class="option"><input type="radio" name="size" value="9x12" id="nine"> 9 x 12</label>
-                    <label class="option"><input type="radio" name="size" value="other-size" id="other-size"> Other</label>
-                </div>
-                <div class="pt-5 mx-auto w-full">
-                    <p class="text-center">MESSAGE: Let me know what your vision is</p>
-                    <textarea rows="5" name="message" class="resize-none border rounded focus:outline-none focus:shadow-outline w-3/4 mx-auto block"></textarea>
-                </div>
-                <div class="pt-3 mx-auto">
-                    <p class="text-center">GIFT OPTIONS</p>
-                </div>
-                <div class="grid pt-1 max-w-md ml-auto mr-0">
-                    <label class="option"><input type="radio" name="gift-frame" id="frame"> Picture Frame</label>
-                    <label class="option"><input type="radio" name="gift-wrap" id="wrap"> Gift wrap/message</label>
-                </div>
-                <div class="pt-5 mx-auto text-center w-full pb-5">
-                    <button class="bg-white py-2 px-4 rounded hover:bg-gray-100" type="submit">SUBMIT!</button>
-                </div>
-            </form>
-        </div>
+            <div class="w-full md:w-1/2 px-3">
+              <label
+                class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
+                for="last-name"
+              >
+                Last Name
+              </label>
+              <input
+                class="appearance-none block w-3/4 bg-white text-gray-700 border border-black border-opacity-50 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-gray-100"
+                id="last-name"
+                name="last-name"
+                type="text"
+                placeholder="Doe"
+              />
+            </div>
+          </div>
+          <div class="flex flex-wrap pt-5 px-3 ml-5">
+            <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
+              <label
+                class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
+                for="email"
+              >
+                Email
+              </label>
+              <input
+                class="appearance-none block w-3/4 bg-white text-gray-700 border border-black border-opacity-50 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-gray-100"
+                id="email"
+                name="_replyto"
+                type="email"
+                placeholder="name@example.com"
+              />
+            </div>
+            <div class="w-full md:w-1/2 px-3">
+              <label
+                class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
+                for="phone"
+              >
+                Phone Number
+              </label>
+              <input
+                class="appearance-none block w-3/4 bg-white text-gray-700 border border-black border-opacity-50 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-gray-100"
+                id="phone"
+                type="tel"
+                name="phone"
+                placeholder="(678) 999-8212"
+              />
+            </div>
+          </div>
+          <div class="pt-8 mx-auto">
+            <p class="text-center text-xl tracking-widest">
+              TELL ME WHAT YOU WANT!
+            </p>
+          </div>
+          <div class="pt-3 mx-auto">
+            <p class="text-center pb-2">STYLE/MEDIUM</p>
+          </div>
+          <div class="grid pt-1 max-w-md ml-auto mr-0">
+            <label class="option"
+              ><input
+                type="radio"
+                name="style"
+                value="line-art"
+                id="line-art"
+              />
+              Line Art</label
+            >
+            <label class="option"
+              ><input
+                type="radio"
+                name="style"
+                value="precision-pencil"
+                id="precision-pencil"
+              />
+              Precision Pencil</label
+            >
+            <label class="option"
+              ><input
+                type="radio"
+                name="style"
+                value="water-color"
+                id="water-color"
+              />
+              Delicate Water Color</label
+            >
+            <label class="option"
+              ><input
+                type="radio"
+                name="style"
+                value="loose-charcoal"
+                id="loose-charcoal"
+              />
+              Loose Charcoal</label
+            >
+            <label class="option"
+              ><input
+                type="radio"
+                name="style"
+                value="condensed-charcoal"
+                id="condensed-charcoal"
+              />
+              Condensed Charcoal</label
+            >
+            <label class="option"
+              ><input type="radio" name="style" value="acrylic" id="acrylic" />
+              Precision Acrylic</label
+            >
+            <label class="option"
+              ><input
+                type="radio"
+                name="style"
+                value="other-style"
+                id="other-style"
+              />
+              Not sure/other</label
+            >
+          </div>
+          <div class="pt-3 mx-auto">
+            <p class="text-center pb-2">SOURCE</p>
+          </div>
+          <div class="grid pt-1 max-w-md ml-auto mr-0">
+            <label class="option"
+              ><input type="radio" name="source" value="picture" id="picture" />
+              Picture</label
+            >
+            <label class="option"
+              ><input type="radio" name="source" value="idea" id="idea" />
+              Idea</label
+            >
+            <label class="option"
+              ><input
+                type="radio"
+                name="source"
+                value="water-color"
+                id="water-color"
+              />
+              Live Model</label
+            >
+            <label class="option"
+              ><input
+                type="radio"
+                name="source"
+                value="other-source"
+                id="other-source"
+              />
+              Not sure/other</label
+            >
+          </div>
+          <div class="pt-3 mx-auto">
+            <p class="text-center pb-2">SIZE</p>
+          </div>
+          <div class="grid pt-1 max-w-md ml-auto mr-0">
+            <label class="option"
+              ><input type="radio" name="size" value="9x12" id="nine" /> 9 x
+              12</label
+            >
+            <label class="option"
+              ><input
+                type="radio"
+                name="size"
+                value="other-size"
+                id="other-size"
+              />
+              Not sure/other</label
+            >
+          </div>
+          <div class="pt-5 mx-auto w-full">
+            <p class="text-center pb-2">
+              MESSAGE: Let me know what your vision is
+            </p>
+            <textarea
+              rows="5"
+              name="message"
+              class="resize-none border bg-gray-100 border-black border-opacity-50 focus:outline-none focus:bg-white w-3/4 mx-auto block"
+            ></textarea>
+          </div>
+          <div class="pt-5 mx-auto text-center w-full pb-5">
+            <button
+              class="bg-white py-2 px-4 rounded hover:bg-gray-100 border border-black border-opacity-50"
+              type="submit"
+            >
+              SUBMIT!
+            </button>
+          </div>
+        </form>
+      </div>
     </div>
-</body>
+  </body>
 </html>
