@@ -40,7 +40,6 @@ body {
 }
 
 .custom-piece {
-  font-family: Montserrat;
   font-weight: 200;
   letter-spacing: 0.15em;
   @apply text-center;
